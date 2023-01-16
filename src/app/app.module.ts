@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { FontColorDirective } from './directive/font-color.directive';
+import { StandAloneBootComponent } from './stand-alone-boot/stand-alone-boot.component';
 
 @NgModule({
   declarations: [
@@ -10,7 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   // bootstrap: [AppComponent]
